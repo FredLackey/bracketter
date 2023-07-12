@@ -1,0 +1,33 @@
+{
+  "name": "bracketter",
+  "version": "0.0.1",
+  "description": "Parse and manipulate tokenized strings with ease!",
+  "main": "index.mjs",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FredLackey/bracketter.git"
+  },
+  "keywords": [
+    "tags",
+    "brackets",
+    "html",
+    "replace",
+    "replacements",
+    "replacer",
+    "tokens",
+    "tokenize",
+    "tokenized",
+    "secrets"
+  ],
+  "author": {
+    "name": "Fred Lackey",
+    "email": "fred.lackey@gmail.com",
+    "url": "http://fredlackey.com"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/FredLackey/bracketter/issues"
+  },
+  "homepage": "https://github.com/FredLackey/bracketter#readme"
+}
