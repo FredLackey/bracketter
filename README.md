@@ -1,4 +1,4 @@
-# Bracetter ([`bracketter`](https://github.com/FredLackey/bracketter))
+# Bracketter ([`bracketter`](https://github.com/FredLackey/bracketter))
 
 Parse and manipulate tokenized strings
 

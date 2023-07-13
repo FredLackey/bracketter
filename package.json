@@ -1,6 +1,6 @@
 {
   "name": "bracketter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Parse and manipulate tokenized strings with ease!",
   "main": "index.mjs",
   "type": "module",
