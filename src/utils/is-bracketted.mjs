@@ -1,7 +1,7 @@
-import getBracket from './get-bracket.mjs';
+import findBracket from './find-bracket.mjs';
 
 const isBracketted = value => {
-  const bracket = getBracket(value);
+  const bracket = findBracket(value);
   return (bracket && isValid(value));
 };
 

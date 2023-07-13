@@ -1,9 +1,9 @@
 import isBracketted from './is-bracketted.mjs';
-import getBracket   from './get-bracket.mjs';
+import findBracket  from './find-bracket.mjs';
 
 const trimBrackets = value => {
   while (isBracketted(value)) {
-    const bracket = getBracket(value);
+    const bracket = findBracket(value);
     if (value.length <= (bracket.open.length + bracket.close.length)) {
       return '';
     }
