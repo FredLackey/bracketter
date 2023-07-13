@@ -1,12 +1,21 @@
 # Bracketter ([`bracketter`](https://github.com/FredLackey/bracketter))
 
-Parse and manipulate tokenized strings
+Parse and manipulate tokenized strings with ease!
 
 ## Description
 
 So many file types... so many different tagging, wrapping, bracketting characters... `<>`, `</>`, `[]`, `{}`, `()`, `%%`, `__`, etc., etc., etc.
 
 The goal of this library is to provide a one-stop-shop utility for whatever format your tokenized strings are in.
+
+## CommonJS or Modules
+
+Two versions of this project exist for your convenience.  The main [`bracketter`](https://github.com/FredLackey/bracketter) uses Module format while [`bracketter-js`](https://github.com/FredLackey/bracketter-js) contains the same logic but written as CommonJS.  If you're new to NodeJS, and not sure what you are using, take a look at the syntax you use for loading dependencies:
+
+| Format | Syntax |
+|--------|--------|
+| CommonJS | `const { replace } = require('bracketter-js');` |
+| Modules | `import { replace } from 'bracketter';` |
 
 ## Usage
 
